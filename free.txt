@@ -1,0 +1,1 @@
+vless://f32a99e8-05dd-478a-82c0-7688848121bd@singapore.com:8080?encryption=none&security=none&type=ws&host=mkhy.daozhang.link&path=%2F%3Fed%3D2048#%F0%9F%87%AD%F0%9F%87%B0%20TG%40daozhang6666
