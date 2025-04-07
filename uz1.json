@@ -1,512 +1,198 @@
 {
-    "recommend": [
-        {
-            "name": "豆瓣推荐 影视推荐",
-            "codeID": "N7WRmLmOdB8FSh4M",
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/recommend/js/douban.txt",
-            "version": "3",
-            "type": 200
-        }
-    ],
-    "panTools": [
-        {
-            "name": "UC|夸克|阿里 网盘解析工具",
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/panTools/js/panTools.js",
-            "env": "UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
-            "version": "9",
-            "type": 300
-        }
-    ],
-    "danMu": [
-        {
-            "name": "综合弹幕",
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/danMu/js/danMu2.txt",
-            "codeID": "GrLpTPWlxvDXv5LsL6iOsY8AUZJWqE5x",
-            "remark": "别那么执着，搜不到就算了",
-            "type": 400,
-            "version": 7
-        },
-        {
-            "name": "dandanPlay 弹幕",
-            "remark": "数据来自 弹弹Play",
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/danMu/js/danMu.js",
-            "type": 400,
-            "version": 1
-        }
-    ],
-    "live": [
-        {
-            "name": "📺电视直播",
-            "url": "https://tv.iill.top/m3u/Gather",
-            "type": 10,
-            "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
-        },
-        {
-            "name": "🎥网络直播",
-            "url": "https://tv.iill.top/m3u/Live",
-            "type": 10,
-            "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
-        },
-        {
-            "name": "🚴‍♂️体育直播",
-            "url": "https://tv.iill.top/m3u/Sport",
-            "type": 10,
-            "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
-        }
-    ],
-    "vod": [
-        {
-            "name": "厂长视频",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/changZhang20240614.js",
-            "instance": "changZhang20240614",
-            "webSite": "https://czzy.top",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "在線之家",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/zxzj.js",
-            "instance": "zxzj20240620",
-            "webSite": "https://www.zxzja.com",
-            "remark": "頻繁搜索會觸發風控，建議間隔10秒以上",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "歐樂",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/olevod.js",
-            "instance": "olevod20240620",
-            "webSite": "https://www.olevod.tv",
-            "remark": "需海外IP",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "燒火電影",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/saohuo.js",
-            "instance": "saohuo20240623",
-            "webSite": "https://saohuo.tv",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "韓劇看看",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/hjkk.js",
-            "instance": "hjkk20240624",
-            "webSite": "https://www.hanjukankan.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "素白白",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/subaibai.js",
-            "instance": "sbb20240624",
-            "webSite": "https://www.subaibaiys.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "兩個BT",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/bttwo.js",
-            "instance": "bttwo20240628",
-            "webSite": "https://www.bttwoo.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "天天影視",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/tiantian.js",
-            "instance": "tiantian20240629",
-            "webSite": "http://op.ysdqjs.cn",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "蛋蛋劇",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/dandanju.js",
-            "instance": "dandanju20240704",
-            "webSite": "https://www.dandanju.tv",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "金牌影院",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/jpyy.js",
-            "instance": "jpyy20240716",
-            "webSite": "https://www.ghw9zwp5.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "4k-av",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/4kav.js",
-            "instance": "www4kav20240705",
-            "webSite": "https://4k-av.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "瓜子web",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/gzys.js",
-            "instance": "gzys20240822",
-            "webSite": "https://api.zaqohu.com",
-            "remark": "不支持搜索",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "瓜子app",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/gzapp.js",
-            "codeID": "ra5Z3wtXKshzSMK2",
-            "instance": "gzapp20241001",
-            "webSite": "https://api.9cec79d.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "囧次元",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/jcy.js",
-            "codeID": "iExLk0gfrJUJ5RPB",
-            "instance": "jcy20240823",
-            "webSite": "http://43.142.232.217:8090",
-            "remark": "",
-            "version": "5",
-            "type": 100
-        },
-        {
-            "name": "奇優影院",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/qiyou.js",
-            "instance": "qiyou20240904",
-            "webSite": "http://www.qiyoudy4.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "短劇天堂",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/duanjutt.js",
-            "instance": "duanjutt20240922",
-            "webSite": "https://duanjutt.tv",
-            "remark": "搜索間隔不能小於10秒",
-            "version": "2",
-            "type": 100
-        },
-        {
-            "name": "老白聽書",
-            "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/laobai.js",
-            "instance": "laobai20240831",
-            "webSite": "https://apk-lb-json.fodexin.com",
-            "remark": "",
-            "version": "2",
-            "type": 100
-        },  
-   {
-        "api": "https://cj.rycjapi.com/api.php/provide/vod",
-        "name": "🔵如意"
-    },
-    {
-        "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-        "name": "🔵黑木耳"
-    },
-    {
-        "api": "https://cjhwba.com/api.php/provide/vod/",
-        "name": "🔵华为吧"
-    },
-    {
-        "api": "https://api.1080zyku.com/inc/apijson.php",
-        "name": "🔵1080源"
-    },
-    {
-        "api": "https://cj.ffzyapi.com/api.php/provide/vod",
-        "name": "🔵非凡源"
-    },
-    {
-        "api": "https://ikunzyapi.com/api.php/provide/vod",
-        "name": "🔵ikun源"
-    },
-    {
-        "api": "http://aliys.cn:90/api.php/provide/vod/",
-        "name": "🔵阿里源"
-    },
-    {
-        "api": "https://cj.lzcaiji.com/api.php/provide/vod/at/json",
-        "name": "🔵量子源"
-    },
-    {
-        "api": "https://360zy.com/api.php/provide/vod/",
-        "name": "🔵360"
-    },
-    {
-        "api": "http://www.feidaozy.com/api.php/provide/vod/",
-        "name": "🔵飞刀"
-    },
-    {
-        "api": "https://www.mdzyapi.com/api.php/provide/vod/",
-        "name": "🔵墨斗"
-    },
-    {
-        "api": "https://hw8.live/api.php/provide/vod/",
-        "name": "🔵华为吧"
-    },
-    {
-        "api": "https://jinyingzy.com/api.php/provide/vod/",
-        "name": "🔵金鹰"
-    },
-    {
-        "api": "https://leshiapi.com/api.php/provide/vod/",
-        "name": "🔵乐视"
-    },
-    {
-        "api": "https://okzyw9.com/api.php/provide/vod/",
-        "name": "🔵OK"
-    },
-    {
-        "api": "https://zpsps.com/api.php/provide/vod/",
-        "name": "🔵宝片"
-    },
-    {
-        "api": "https://www.inmi.app/api.php/provide/vod/at/xml",
-        "name": "🔵映迷"
-    },
-    {
-        "api": "https://iqyi.xiaohuangrentv.com/api.php/provide/vod/",
-        "name": "🔵小黄人"
-    },
-    {
-        "api": "https://api.niuniuzy.me/api.php/provide/vod/",
-        "name": "🔵牛牛"
-    },
-    {
-        "api": "https://cj.yayazy.net/api.php/provide/vod/",
-        "name": "🔵丫丫"
-    },
-    {
-        "api": "https://cj.vodimg.top/api.php/provide/vod/",
-        "name": "🔵影图"
-    },
-    {
-        "api": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
-        "name": "🔵小猫咪"
-    },
-    {
-        "api": "https://api.ukuapi.com/api.php/provide/vod/",
-        "name": "🔵U酷"
-    },
-    {
-        "api": "https://hhzyapi.com/api.php/provide/vod",
-        "name": "🔵豪华"
-    },
-    {
-        "api": "https://jszyapi.com/api.php/provide/vod",
-        "name": "🔵极速"
-    },
-    {
-        "api": "https://suoniapi.com/api.php/provide/vod/",
-        "name": "🔵索尼"
-    },
-    {
-        "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
-        "name": "🔵非凡"
-    },
-    {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/",
-        "name": "🔵量子"
-    },
-    {
-        "api": "https://bfzyapi.com/api.php/provide/vod/",
-        "name": "🔵暴风"
-    },
-    {
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-        "name": "🔵红牛"
-    },
-    {
-        "api": "https://www.feisuzyapi.com/api.php/provide/vod/",
-        "name": "🔵飞速"
-    },
-    {
-        "api": "https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/",
-        "name": "🔵快车"
-    },
-    {
-        "api": "http://sdzyapi.com/api.php/provide/vod/",
-        "name": "🔵闪电"
-    },
-    {
-        "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
-        "name": "🔵樱花"
-    },
-    {
-        "api": "https://collect.wolongzyw.com/api.php/provide/vod/",
-        "name": "🔵卧龙"
-    },
-    {
-        "api": "http://www.ahjiuman.com/api.php/provide/vod/at/json",
-        "name": "🔵飘花"
-    },
-    {
-        "api": "https://www.huyaapi.com/api.php/provide/vod/",
-        "name": "🔵虎牙"
-    },
-    {
-        "api": "https://api.wujinapi.com/api.php/provide/vod/",
-        "name": "🔵无尽"
-    },
-    {
-        "api": "https://subocaiji.com/api.php/provide/vod/",
-        "name": "🔵速博"
-    },
-    {
-        "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-        "name": "🔵新浪"
-    },
-    {
-        "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
-        "name": "🔵量子资源(lzm3u8)"
-    },
-    {
-        "api": "https://360zy.com/api.php/seaxml/vod",
-        "name": "🔵360资源1"
-    },
-    {
-        "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json/",
-        "name": "🔵爱坤资源json"
-    },
-    {
-        "api": "http://fszy1.com/api.php/provide/vod/",
-        "name": "🔵飞速资源2"
-    },
-    {
-        "api": "https://m3u8.feisuzyapi.com/api.php/provide/vod/",
-        "name": "🔵飞速资源3"
-    },
-    {
-        "api": "https://api.1080zyku.com/inc/api_mac10.php",
-        "name": "🔵1080资源"
-    },
-    {
-        "api": "https://api.1080zyku.com/inc/api.php/provide/vod/",
-        "name": "🔵优质资源库"
-    },
-    {
-        "api": "https://api.tiankongapi.com/api.php/provide/vod",
-        "name": "🔵天空资源"
-    },
-    {
-        "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/",
-        "name": "🔵天空资源1"
-    },
-    {
-        "api": "https://m3u8.tiankongapi.com/api.php/provide/vod/from/tkm3u8/",
-        "name": "🔵天空资源(tkm3u8)"
-    },
-    {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod",
-        "name": "🔵光速资源"
-    },
-    {
-        "api": "https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/",
-        "name": "🔵光速资源(gsm3u8)"
-    },
-    {
-        "api": "https://caiji.kczyapi.com/api.php/provide/vod/",
-        "name": "🔵快车资源"
-    },
-    {
-        "api": "http://cj.bajiecaiji.com/inc/apijson_vod.php",
-        "name": "🔵八戒资源(php)"
-    },
-    {
-        "api": "https://api.apibdzy.com/api.php/provide/vod/",
-        "name": "🔵百度资源"
-    },
-    {
-        "api": "https://img.smdyw.top/api.php/provide/vod",
-        "name": "🔵神马资源"
-    },
-    {
-        "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
-        "name": "🔵红牛资源(hnm3u8)"
-    },
-    {
-        "api": "https://kuaikan-api.com/api.php/provide/vod",
-        "name": "🔵快看资源"
-    },
-    {
-        "api": "https://api.wujinapi.me/api.php/provide/vod",
-        "name": "🔵无尽资源资源me"
-    },
-    {
-        "api": "https://api.wujinapi.net/api.php/provide/vod/",
-        "name": "🔵无尽资源资源net"
-    },
-    {
-        "api": "https://www.911ysw.top/tianyi.php/provide/vod/",
-        "name": "🔵天翼资源"
-    },
-    {
-        "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
-        "name": "🔵天翼资源(json)"
-    },
-    {
-        "api": "https://www.39kan.com/api.php/provide/vod/",
-        "name": "🔵39影视"
-    },
-    {
-        "api": "https://www.39kan.com/api.php/provide/vod/at/json/",
-        "name": "🔵39影视(json)"
-    },
-    {
-        "api": "http://cj.baozi66.top:66/api.php/provide/vod/",
-        "name": "🔵雨哥哥影视"
-    },
-    {
-        "api": "https://api.yparse.com/api/json",
-        "name": "🔵步步高资源(json)"
-    },
-    {
-        "api": "https://api.zuidapi.com/api.php/provide/vod/",
-        "name": "🔵最大资源"
-    },
-    {
-        "api": "https://caiji.qhzyapi.com/api.php/provide/vod",
-        "name": "🔵奇虎资源"
-    },
-    {
-        "api": "https://simiyy.com/api.php/provide/vod/",
-        "name": "🔵私密影院"
-    },
-    {
-        "api": "http://zyz.yxys.top/api.php/provide/vod/",
-        "name": "🔵耀协资源"
-    },
-    {
-        "api": "https://www.inmi.app/api.php/provide/vod/",
-        "name": "🔵映迷资源"
-    },
-    {
-        "api": "https://jyzyapi.com/api.php/provide/vod/",
-        "name": "🔵金鹰资源1"
-    },
-    {
-        "api": "https://jyzyapi.com/provide/vod/from/jinyingm3u8/",
-        "name": "🔵金鹰资源(jinyingm3u8)"
-    },
-    {
-        "api": "https://sdzyapi.com/api.php/provide/vod/from/sdm3u8/",
-        "name": "🔵闪电资源(sdm3u8)"
-    },
-    {
-        "api": "https://49zyw.com/api.php/provide/vod",
-        "name": "🔵四九资源"
+  "recommend": [
+    {
+      "name": "豆瓣推荐",
+      "version": 3,
+      "remark": "iOS14 以上版本可用",
+      "codeID": "N7WRmLmOdB8FSh4M",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/recommend/js/douban.txt",
+      "type": 200
     }
+  ],
+  "vod": [
+    {
+      "name": "[直]韩剧看看",
+      "version": 2,
+      "webSite": "https://www.hanjukankan.com",
+      "instance": "hjkk20240624",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/hjkk.js",
+      "type": 100
+    },
+    {
+      "name": "[直]金牌影视",
+      "version": 2,
+      "webSite": "https://www.ghw9zwp5.com",
+      "instance": "jpyy20240716",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/jpyy.js",
+      "type": 100
+    },
+    {
+      "name": "[直]蛋蛋剧",
+      "version": 2,
+      "webSite": "https://www.dandanju.tv",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/dandanju.js",
+      "type": 101
+    },
+    {
+      "name": "[直]虎斑盘",
+      "version": 1,
+      "webSite": "http://103.45.162.207:20720",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/huban.js",
+      "type": 101
+    },
+    {
+      "name": "[直]老白听书",
+      "version": 2,
+      "webSite": "https://apk-lb-json.fodexin.com",
+      "instance": "laobai20240831",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/laobai.js",
+      "type": 100
+    },
+    {
+      "name": "[直]素白白",
+      "version": 2,
+      "webSite": "https://www.subaibaiys.com",
+      "instance": "sbb20240624",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/subaibai.js",
+      "type": 100
+    },
+    {
+      "name": "[直]短剧天堂",
+      "version": 2,
+      "webSite": "https://duanjutt.tv",
+      "instance": "duanjutt20240922",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/duanjutt.js",
+      "type": 100
+    },
+    {
+      "name": "[直]瓜子web",
+      "version": 2,
+      "webSite": "https://api.zaqohu.com",
+      "instance": "gzys20240822",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/gzys.js",
+      "type": 100
+    },
+    {
+      "name": "[直]瓜子 app",
+      "version": 2,
+      "remark": "v1.6.53 及以上版本",
+      "webSite": "https://api.9cec79d.com",
+      "codeID": "ra5Z3wtXKshzSMK2",
+      "instance": "gzapp20241001",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/gzapp.txt",
+      "type": 100
+    },
+    {
+      "name": "[直]烧火",
+      "version": 2,
+      "webSite": "https://saohuo.tv",
+      "instance": "saohuo20240623",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/saohuo.js",
+      "type": 100
+    },
+    {
+      "name": "[直]欧乐影视",
+      "version": 2,
+      "webSite": "https://www.olevod.tv",
+      "instance": "olevod20240620",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/olevod.js",
+      "type": 100
+    },
+    {
+      "name": "[直]天天影视",
+      "version": 2,
+      "webSite": "http://op.ysdqjs.cn",
+      "instance": "tiantian20240629",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/tiantian.js",
+      "type": 100
+    },
+    {
+      "name": "[直]在线之家",
+      "version": 2,
+      "webSite": "https://www.zxzja.com",
+      "instance": "zxzj20240620",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/zxzj.js",
+      "type": 100
+    },
+    {
+      "name": "[直]囧次元",
+      "version": 1,
+      "webSite": "http://yhhy.zshtys888.com",
+      "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/jocy.js",
+      "type": 101
+    },
+    {
+      "name": "[直]厂长影视",
+      "version": 2,
+      "webSite": "https://www.czzy77.com",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/changZhang20240614.js",
+      "type": 101
+    },
+    {
+      "name": "[直]两个bt",
+      "version": 2,
+      "webSite": "https://www.bttwoo.com",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/bttwo.js",
+      "type": 101
+    },
+    {
+      "name": "[直]4k-av",
+      "version": 2,
+      "webSite": "https://4k-av.com",
+      "instance": "www4kav20240705",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/4kav.js",
+      "type": 100
+    },
+    {
+      "name": "[嗅]mifun",
+      "version": 1,
+      "webSite": "http://www.mifun.tw",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/mifun.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅]eacg2",
+      "version": 1,
+      "webSite": "https://eacg1.com",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/eacg2.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅]eacg",
+      "version": 1,
+      "webSite": "https://eacg1.com",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/eacg.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅]clicli",
+      "version": 1,
+      "webSite": "https://www.clicli.pro",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/clicli.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅]aggl",
+      "version": 1,
+      "webSite": "https://anime.girigirilove.com",
+      "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/main/vod/js/aggl.js",
+      "type": 101
+    },
+    {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "name": "[采]如意",
+      "type": 0
+    },
+    {
+      "api": "https://json.heimuer.xyz/api.php/provide/vod/",
+      "name": "[采]黑木耳",
+      "type": 0
+    },
+    {
+      "api": "https://cjhwba.com/api.php/provide/vod/",
+      "name": "[采]华为吧",
+      "type": 0
+    }
+  ],
+    {
